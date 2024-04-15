@@ -1,0 +1,38 @@
+.bikerentalportal{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+.title{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: brown;
+}
+.intro{
+    margin-bottom: 20px;
+}
+
+.start{
+    margin-left: 40px;
+}
+
+.list{
+    margin-left: 40px;
+}
+
+.tech{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.link{
+    color:blue;
+    text-decoration: underline;
+}
+
