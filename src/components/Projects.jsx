@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
-
+import exploreImage from './assets/images/explore/e1.jpg';
 function Projects() {
     let navigate = useNavigate()
 
@@ -53,7 +53,8 @@ function Projects() {
                             <div className=" col-md-4 col-sm-6">
                                 <div className="single-explore-item">
                                     <div className="single-explore-img">
-                                        <img src="assets/images/explore/e1.jpg" alt="explore image" />
+                                        {/* <img src="assets/images/explore/e1.jpg" alt="explore image" /> */}
+                                        <img src={exploreImage} alt="explore image" />
                                         <div className="single-explore-img-info">
                                             <button onClick={()=>{navigate('/projects/bikerentalportal')}}>view</button>
                                             
